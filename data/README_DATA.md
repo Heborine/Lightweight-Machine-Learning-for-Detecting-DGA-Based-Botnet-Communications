@@ -1,0 +1,1 @@
+The data is accessed from Kaggle using the Python library Kaggle Hub, so there is no data that can be found here. The data is directly downloaded and accessed from within the Jupyter notebooks. Backup datasets have been included in case the datasets are later removed from Kaggle.

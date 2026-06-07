@@ -1,0 +1,1 @@
+Early in our testing, we tested the feasability of a LLM perplexity model. In doing so, we included a small blurb about it in our paper, and in accordance to disclosing such research, a separate GitHub can be found specifically pertaining to that model: https://github.com/ethange1/LexDGA.
