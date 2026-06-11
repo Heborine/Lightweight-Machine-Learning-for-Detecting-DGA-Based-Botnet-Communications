@@ -1,1 +1,3 @@
-The figures produced for the attached research paper can be found in the artifacts folder. The overall models that were used to gather the numbers and further our research can be found in the models folder.
+The figure notebooks are in `artifacts/`.
+
+The model and exploratory notebooks are in `models/`.

@@ -1,1 +1,15 @@
-The data is accessed from Kaggle using the Python library Kaggle Hub, so there is no data that can be found here. The data is directly downloaded and accessed from within the Jupyter notebooks. Backup datasets under the backup_csvs folder have been included in case the datasets are later removed from Kaggle. The DGA dataset can be found at gtkcyber/dga-dataset and the benign dataset can be found at adebayo/cisco-umbrella-list.
+The notebooks download data with Kaggle Hub. Backup copies are included in `data/backup_csvs/`.
+
+| File | Kaggle source | Rows |
+|------|------|------:|
+| `data/backup_csvs/top-1m.csv` | `adebayo/cisco-umbrella-list` | 1,000,000 |
+| `data/backup_csvs/dga_data.csv` | `gtkcyber/dga-dataset` | 160,003 |
+
+To refresh the data:
+
+```python
+import kagglehub
+
+print(kagglehub.dataset_download("adebayo/cisco-umbrella-list"))
+print(kagglehub.dataset_download("gtkcyber/dga-dataset"))
+```
