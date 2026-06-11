@@ -13,6 +13,6 @@
 | `data/raw/` | Small, open datasets committed to the repo. |
 | `data/sql/` | SQL/BigQuery queries to fetch large tables. |
 | `notebooks/artifacts` | Jupyter workflows (analysis + plots). |
-| `notebooks/models` | Jupyter workflows (data and superfluous plots). |
+| `notebooks/models` | Jupyter workflows (data + superfluous plots). |
 | `scripts/` | Scripts for reproducibility test. |
 | `figures/` | Auto-generated paper artifacts. |
